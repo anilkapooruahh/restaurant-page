@@ -1,0 +1,25 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "restaurant page ",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --mode=production",  
+    "watch": "webpack --progress --watch" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anilkapooruahh/restaurant-page.git"
+  },
+  "author": "Shreyan Das",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anilkapooruahh/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/anilkapooruahh/restaurant-page#readme",
+  "devDependencies": {
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
