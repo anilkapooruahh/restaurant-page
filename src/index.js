@@ -1,1 +1,6 @@
-console.log("webpack works");
+import initialPageLoad from "./initialPageLoad";
+
+const container = document.getElementById("content");
+
+initialPageLoad(container);
+
