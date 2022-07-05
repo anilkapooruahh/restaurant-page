@@ -1,0 +1,38 @@
+
+body {
+    margin: 0;
+  }
+
+main {
+  display: block;
+}
+
+
+  
+.container {
+  width: inherit;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  width: inherit;
+  background-color: white;
+  color: var(--clr-dark);
+  font-family: "New Caledonia";
+}
+
+.navbar ul {
+  width: inherit;
+  display: flex;
+  align-items:flex-end;
+  flex-direction: row;
+  gap: 10em;
+  list-style-type: none;
+  font-size: 1.5rem;
+}
+
+.navbar-item>a:link{ 
+  text-decoration: none!important;
+}
