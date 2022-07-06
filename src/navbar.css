@@ -1,14 +1,4 @@
 
-body {
-    margin: 0;
-  }
-
-main {
-  display: block;
-}
-
-
-  
 .container {
   width: inherit;
 }
@@ -17,7 +7,7 @@ main {
   display: flex;
   flex-direction: row;
   align-items: flex-end;
-  width: inherit;
+  width: 100%;
   background-color: white;
   color: var(--clr-dark);
   font-family: "New Caledonia";
@@ -28,7 +18,7 @@ main {
   display: flex;
   align-items:flex-end;
   flex-direction: row;
-  gap: 10em;
+  gap: 10vw;
   list-style-type: none;
   font-size: 1.5rem;
 }

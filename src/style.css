@@ -17,40 +17,72 @@
 }
 
 body {
+    padding: 0;
+    margin: 0;
     display: flex;
-    width: 100vw;
-    align-items: center;
-    justify-content: center;
+    width: fit-content;
     background-color: var(--clr-dark);
     color: var(--clr-text);
 }
 
+
+
 #content {
-    width: inherit;
+    width: 100vw;
     display: flex;
-    align-items: center;
     flex-direction: column-reverse;
 }
 
-.container {
-    height: 70vh;
-}
-
-
-.layout {
-    width:inherit;
-    display: flex;
-    flex-direction: row-reverse;
-}
 
 .heading {
     font-family: "New Caledonia";
-    margin-right: 100px;
 }
 
 .main-layout {
+    display:flex;
+    flex-direction: column;
+}
+
+.main-layout-div{
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-family: "Futura";
+}
+
+.first {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: flex-end;
+}
+
+.menu-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Futura";
+}
+
+
+.menu {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    padding: 2rem;
+    grid-template-columns: 40vw 40vw;
+    column-gap: 30px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-item > img {
+    width: 30vw;
+    height: 50vh;
+}
+
+.menu-item :hover {
+    transform: scaleX(1.1);
 }
